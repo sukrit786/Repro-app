@@ -1,5 +1,5 @@
 import * as functions from 'firebase-functions';
-const { app } = require(`${process.cwd()}/dist/server`);
+const { app } = require(`${process.cwd()}/dist/server/main.js`);
 
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
